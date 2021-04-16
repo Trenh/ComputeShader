@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DE03E0FD-B3EF-3C65-AE33-6A821B47C537}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>game</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\build\src\game\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">game.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">game</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\build\src\game\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">game.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">game</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\build\src\game\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">game.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">game</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\build\src\game\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">game.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">game</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\external\glew-2.1.0\include;D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\external\glew-2.1.0\include;D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\external\glew-2.1.0\include;D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\external\glew-2.1.0\include;D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\external\glew-2.1.0\include;D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\external\glew-2.1.0\include;D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\external\glew-2.1.0\include;D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\external\glew-2.1.0\include;D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\external\glew-2.1.0\include;D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\external\glew-2.1.0\include;D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\external\glew-2.1.0\include;D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\external\glew-2.1.0\include;D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Artfx/opengl/Shader/opengl-training/opengl-training/AdvancedOpenGL/src/game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Artfx/opengl/Shader/opengl-training/opengl-training/AdvancedOpenGL -BD:/Artfx/opengl/Shader/opengl-training/opengl-training/AdvancedOpenGL/build --check-stamp-file D:/Artfx/opengl/Shader/opengl-training/opengl-training/AdvancedOpenGL/build/src/game/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\build\src\game\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Artfx/opengl/Shader/opengl-training/opengl-training/AdvancedOpenGL/src/game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Artfx/opengl/Shader/opengl-training/opengl-training/AdvancedOpenGL -BD:/Artfx/opengl/Shader/opengl-training/opengl-training/AdvancedOpenGL/build --check-stamp-file D:/Artfx/opengl/Shader/opengl-training/opengl-training/AdvancedOpenGL/build/src/game/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\build\src\game\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Artfx/opengl/Shader/opengl-training/opengl-training/AdvancedOpenGL/src/game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Artfx/opengl/Shader/opengl-training/opengl-training/AdvancedOpenGL -BD:/Artfx/opengl/Shader/opengl-training/opengl-training/AdvancedOpenGL/build --check-stamp-file D:/Artfx/opengl/Shader/opengl-training/opengl-training/AdvancedOpenGL/build/src/game/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\build\src\game\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Artfx/opengl/Shader/opengl-training/opengl-training/AdvancedOpenGL/src/game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Artfx/opengl/Shader/opengl-training/opengl-training/AdvancedOpenGL -BD:/Artfx/opengl/Shader/opengl-training/opengl-training/AdvancedOpenGL/build --check-stamp-file D:/Artfx/opengl/Shader/opengl-training/opengl-training/AdvancedOpenGL/build/src/game/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\build\src\game\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Game.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\SceneMain.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_001_Color.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_002_Point.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_003_Triangle.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_004_PassingData.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_005_Tessellation.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_006_Fragment.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_007_SpinningCube.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_008_SpinningCubes.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_009_TextureAsData.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_010_TextureCoordinates.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_011_MipmapTunnel.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_012_ArrayTextureAlienRain.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_013_InstancedGrassBlades.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_014_IndirectDrawAstroids.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_015_TessellationModes.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_016_TerrainRendering.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_017_CubicBezierPatches.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_018_DiscardGeometry.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_019_ModifyGeometry.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_020_GenerateGeometry.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_021_ChangePrimitiveType.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_022_ComputeShaderPrefixSum.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_023_ComputeShaderBoids.cpp" />
+    <ClCompile Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_024_TestingBubble.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\build\ZERO_CHECK.vcxproj">
+      <Project>{1DEE7C3B-EC2B-3379-82F4-E7DC23366190}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

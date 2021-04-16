@@ -1,0 +1,23 @@
+﻿  Game.cpp
+  Scene_006_Fragment.cpp
+  Scene_007_SpinningCube.cpp
+  Scene_008_SpinningCubes.cpp
+  Scene_009_TextureAsData.cpp
+  Scene_010_TextureCoordinates.cpp
+  Scene_011_MipmapTunnel.cpp
+  Scene_012_ArrayTextureAlienRain.cpp
+  Scene_013_InstancedGrassBlades.cpp
+  Scene_014_IndirectDrawAstroids.cpp
+  Scene_015_TessellationModes.cpp
+  Scene_016_TerrainRendering.cpp
+  Scene_017_CubicBezierPatches.cpp
+  Scene_018_DiscardGeometry.cpp
+  Scene_019_ModifyGeometry.cpp
+  Scene_020_GenerateGeometry.cpp
+  Scene_021_ChangePrimitiveType.cpp
+  Scene_022_ComputeShaderPrefixSum.cpp
+  Scene_023_ComputeShaderBoids.cpp
+  Scene_024_TestingBubble.cpp
+D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\src\game\Scene_024_TestingBubble.cpp(68,9): warning C4930: 'Log t(void)' : fonction prototypée non appelée (était-ce la définition de variable souhaitée ?)
+  Génération de code en cours...
+  game.vcxproj -> D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\build\src\game\Debug\game.lib

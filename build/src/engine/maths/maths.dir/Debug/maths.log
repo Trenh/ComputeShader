@@ -1,0 +1,9 @@
+﻿  Building Custom Rule D:/Artfx/opengl/Shader/opengl-training/opengl-training/AdvancedOpenGL/src/engine/maths/CMakeLists.txt
+  Matrix4.cpp
+  Matrix4Row.cpp
+  Quaternion.cpp
+  Vector2.cpp
+  Vector3.cpp
+  Vector4.cpp
+  Génération de code en cours...
+  maths.vcxproj -> D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\build\src\engine\maths\Debug\maths.lib

@@ -1,2 +1,2 @@
-# ComputeShader
- ComputeShaderExercice
+# OpenGL training
+Some code with OpenGL

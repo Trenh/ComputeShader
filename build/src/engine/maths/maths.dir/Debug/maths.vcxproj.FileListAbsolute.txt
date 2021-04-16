@@ -1,0 +1,2 @@
+D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\build\src\engine\maths\Debug\maths.pdb
+D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\build\src\engine\maths\maths.dir\Debug\maths.pdb

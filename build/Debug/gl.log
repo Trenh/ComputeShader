@@ -1,0 +1,54 @@
+21-04-16 18:05:46 INFO : 	Subsystems initialised
+21-04-16 18:05:46 INFO : 	WindowSdl initialised
+21-04-16 18:05:46 INFO : 	OpenGL Context initialised
+21-04-16 18:05:46 INFO : 	GLEW initialised
+21-04-16 18:05:46 INFO : 	Renderer: GeForce GTX 1660 Ti/PCIe/SSE2
+21-04-16 18:05:46 INFO : 	OpenGL version supported 4.4.0 NVIDIA 456.71
+21-04-16 18:05:46 INFO : 	-----------------------------
+21-04-16 18:05:46 INFO : 	GL Context Params:
+21-04-16 18:05:46 INFO : 	GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS 192
+21-04-16 18:05:46 INFO : 	GL_MAX_CUBE_MAP_TEXTURE_SIZE 32768
+21-04-16 18:05:46 INFO : 	GL_MAX_DRAW_BUFFERS 8
+21-04-16 18:05:46 INFO : 	GL_MAX_FRAGMENT_UNIFORM_COMPONENTS 4096
+21-04-16 18:05:46 INFO : 	GL_MAX_TEXTURE_IMAGE_UNITS 32
+21-04-16 18:05:46 INFO : 	GL_MAX_TEXTURE_SIZE 32768
+21-04-16 18:05:46 INFO : 	GL_MAX_VARYING_FLOATS 124
+21-04-16 18:05:46 INFO : 	GL_MAX_VERTEX_ATTRIBS 16
+21-04-16 18:05:46 INFO : 	GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS 32
+21-04-16 18:05:46 INFO : 	GL_MAX_VERTEX_UNIFORM_COMPONENTS 4096
+21-04-16 18:05:46 INFO : 	GL_MAX_VIEWPORT_DIMS 32768 32768
+21-04-16 18:05:46 INFO : 	GL_STEREO 0
+21-04-16 18:05:46 INFO : 	
+21-04-16 18:05:46 INFO : 	program 5 GL_VALIDATE_STATUS = 1
+21-04-16 18:05:46 INFO : 	-----------------------------
+21-04-16 18:05:46 INFO : 	Shader programme 5 info:
+21-04-16 18:05:46 INFO : 	GL_LINK_STATUS = 1
+21-04-16 18:05:46 INFO : 	GL_ATTACHED_SHADERS = 2
+21-04-16 18:05:46 INFO : 	GL_ACTIVE_ATTRIBUTES = 4
+21-04-16 18:05:46 INFO : 	  0) type:vec3 name:particle_position location:2
+21-04-16 18:05:46 INFO : 	  1) type:vec3 name:particle_velocity location:3
+21-04-16 18:05:46 INFO : 	  2) type:vec3 name:position location:0
+21-04-16 18:05:46 INFO : 	  3) type:int name:gl_InstanceID location:-1
+21-04-16 18:05:46 INFO : 	GL_ACTIVE_UNIFORMS = 1
+21-04-16 18:05:46 INFO : 	  0) type:mat4 name:mvp location:0
+21-04-16 18:05:46 INFO : 	program info log for GL index5
+21-04-16 18:05:46 INFO : 	
+21-04-16 18:05:46 DEBUG: 	 --- OpenGL -------------------
+                                message (164): Buffer detailed info: Buffer object 3 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+                                source: API
+                                type: Other
+                                id: 131185
+                                severity: Notification
+21-04-16 18:05:46 DEBUG: 	 --- OpenGL -------------------
+                                message (165): Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_DYNAMIC_COPY) will use VIDEO memory as the source for buffer object operations.
+                                source: API
+                                type: Other
+                                id: 131185
+                                severity: Notification
+21-04-16 18:05:46 DEBUG: 	 --- OpenGL -------------------
+                                message (298): Buffer detailed info: Buffer object 2 (bound to GL_VERTEX_ATTRIB_ARRAY_BUFFER_BINDING_ARB (2), GL_VERTEX_ATTRIB_ARRAY_BUFFER_BINDING_ARB (3), GL_SHADER_STORAGE_BUFFER, and GL_SHADER_STORAGE_BUFFER (1), usage hint is GL_DYNAMIC_COPY) will use VIDEO memory as the source for buffer object operations.
+                                source: API
+                                type: Other
+                                id: 131185
+                                severity: Notification
+21-04-16 18:05:52 INFO : 	Bye :)

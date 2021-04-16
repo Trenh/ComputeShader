@@ -1,0 +1,10 @@
+^D:\ARTFX\OPENGL\SHADER\OPENGL-TRAINING\OPENGL-TRAINING\ADVANCEDOPENGL\BUILD\CMAKEFILES\1F2DE00125AE7DEBAFE8E197B76E2F2E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Artfx/opengl/Shader/opengl-training/opengl-training/AdvancedOpenGL -BD:/Artfx/opengl/Shader/opengl-training/opengl-training/AdvancedOpenGL/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Artfx/opengl/Shader/opengl-training/opengl-training/AdvancedOpenGL/build/OpenGLTraining.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
