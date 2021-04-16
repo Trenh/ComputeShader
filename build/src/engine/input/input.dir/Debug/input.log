@@ -1,7 +1,0 @@
-﻿  Building Custom Rule D:/Artfx/opengl/Shader/opengl-training/opengl-training/AdvancedOpenGL/src/engine/input/CMakeLists.txt
-  InputManager.cpp
-  Input_ControllerState.cpp
-  Input_KeyboardState.cpp
-  Input_MouseState.cpp
-  Génération de code en cours...
-  input.vcxproj -> D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\build\src\engine\input\Debug\input.lib

@@ -1,2 +1,0 @@
-D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\build\src\game\Debug\game.pdb
-D:\Artfx\opengl\Shader\opengl-training\opengl-training\AdvancedOpenGL\build\src\game\game.dir\Debug\game.pdb
