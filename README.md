@@ -1,2 +1,0 @@
-# ComputeShader
- ComputeShaderExercice
